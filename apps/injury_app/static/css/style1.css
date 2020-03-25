@@ -1,0 +1,136 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.navbar {
+    background:#343a40;
+}
+.nav-link{
+    color: #fff;
+    cursor: pointer;
+    margin-right: 11em !important;
+}
+.nav-link:hover {
+    color: #000;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+.header{
+    background-image: url('../img/multisport.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    height: 125vh;
+    filter: contrast(100%);
+    filter: brightness(40%);
+    filter: grayscale(65%);
+}
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.192);
+}
+.description {
+    margin: 75px auto;
+    width: 800px;
+    height: 600px;
+    text-align: center;
+    overflow-x: hidden;
+    overflow-y:auto;
+}
+.description h1 {
+    color:#fefffe;
+    margin-bottom: 3rem;
+}
+.description h3{
+    color:#fefffe;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    margin-left: 1rem;
+}
+.description h5{
+    color:#fefffe;
+    margin-bottom: 1rem;
+}
+.description p {
+    color: #fefffe;
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+.form-group{
+    color:#fefffe;
+    font-size: 18px;
+    font-weight: bolder;
+    width: 300px;
+    text-align: center;
+    margin: 10px auto;
+}
+.messages{
+    list-style-type: none;
+    color: #fefffe;
+    font-size: 25px;
+    font-weight: bold;
+}
+.description1 {
+    margin: 40px auto;
+    width:800px;
+    height: 500px;
+    text-align: center;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.description1 h1 {
+    color:#fefffe;
+    margin-bottom: 3rem;
+}
+.description1 h3{
+    color:#fefffe;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    margin-left: 1rem;
+}
+.description1 h5{
+    color:#fefffe;
+    margin-bottom: 1rem;
+}
+.description1 p {
+    color: #fefffe;
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+.ath_a{
+    color:#51ff00;
+    font-style: italic;
+    text-decoration: underline;
+}
+.description2 {
+    margin: 100px auto;
+    width:800px;
+    height:300px;
+    text-align: center;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.description2 h1 {
+    color:#fefffe;
+    margin-bottom: 3rem;
+}
+.description2 h5{
+    color:#fefffe;
+    margin-bottom: 1rem;
+}
+.description2 p {
+    color: #fefffe;
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+label{
+    font-weight: bolder;
+    font-size: 20px;
+    color:  #fefffe;
+}
